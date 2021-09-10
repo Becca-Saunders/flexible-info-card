@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+section li {
+  display: flex;
+  justify-content: left;
+}
+
+img {
+  height: 5rem
+}
