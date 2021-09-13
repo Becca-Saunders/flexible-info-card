@@ -1,10 +1,16 @@
 html {
   box-sizing: border-box;
   background-color: lightgray;
+  font-family: "Open Sans";
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  background-color: lightgray;
 }
 
 section {
@@ -23,12 +29,13 @@ section li {
 img {
   width: 5rem;
   margin-right: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: .5rem;
+  margin-top: 0;
 }
 
 a {
   background-color: #444;
-  color: lightgrey;
+  color: #ccc;
   padding: .5rem;
   text-decoration: none;
   margin-left: 1.5rem;
@@ -40,4 +47,9 @@ section li h3 {
 
 section li h4 {
   margin-left: 1.5rem;
+}
+
+section li p {
+  padding-left: .5rem;
+  display: flex;
 }
