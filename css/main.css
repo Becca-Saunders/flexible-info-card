@@ -1,21 +1,43 @@
 html {
   box-sizing: border-box;
+  background-color: lightgray;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-h1 {
+section {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 section li {
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
+  align-items: center;
 }
 
 img {
-  height: 5rem
+  width: 5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  background-color: #444;
+  color: lightgrey;
+  padding: .5rem;
+  text-decoration: none;
+  margin-left: 1.5rem;
+}
+
+section li h3 {
+  margin-left: 1.5rem;
+}
+
+section li h4 {
+  margin-left: 1.5rem;
 }
